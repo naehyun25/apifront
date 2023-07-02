@@ -15,7 +15,7 @@ selectBtn.addEventListener('click', function(event) {
 async function sendDataToServer(selectedBudget) {
     console.log(selectedBudget)
 
-    const url = 'http://localhost:3000/'; 
+    const url = 'https://port-0-api-20zynm2mljlheog6.sel4.cloudtype.app/'; 
     const data={
         budget : selectedBudget,
     };
